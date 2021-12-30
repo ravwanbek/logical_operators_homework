@@ -11,8 +11,8 @@ def main(a,b,c):
 
 
 
-    x=a<b<c
+    x= a<b<c or a>b>c
     return x
 
-x=main(5,8,10)
+x=main(1,8,10)
 print(x)
