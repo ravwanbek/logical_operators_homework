@@ -7,4 +7,9 @@ def main(a,b):
     Returns:
         True if each of the numbers 'a' and 'b' is even, False otherwise
     """
-    return
+
+    x=a%2==0 and b%2==0 
+    return x
+x=main(2,10)
+print(x)
+
