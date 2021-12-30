@@ -11,18 +11,11 @@ def main(a):
     c2=a//10
     c3=c1+c2
     
-    
     x= 1<=(100-a)<=90 and c3%2==0
-
     
     
-
-
-
-
-
     return x
 
-x=main(100)
+x=main(35)
 print(x)
     
