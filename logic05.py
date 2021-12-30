@@ -7,4 +7,8 @@ def main(a,b):
     Returns:
         True if each of the numbers 'a' and 'b' is odd, False otherwise
     """
-    return
+    x=a%2!=0 and b%2!=0 
+    return x
+x=main(3,11)
+print(x)
+    
