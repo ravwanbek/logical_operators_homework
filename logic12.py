@@ -6,4 +6,7 @@ def main(a):
     Returns:
         True if all digits of a are the same, False otherwise
     """
-    return
+    x= 1<=(100-a)<=90 and (a==11 or a==22 or a==33 or a==44 or a==55 or a==66 or a==77 or a==88) 
+    return x
+x=main(65)
+print(x)
