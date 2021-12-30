@@ -8,9 +8,9 @@ def main(a):
     """
     c1=a%10
     c2=a//10
-    c3=c1+c2
+    c_sum=c1+c2
     
-    x= 1<=(100-a)<=90 and c3%2!=0
+    x= 1<=(100-a)<=90 and c_sum%2!=0
     
     
     return x
