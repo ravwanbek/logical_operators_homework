@@ -6,4 +6,7 @@ def main(a):
     Returns:
         True if a is three-digit number, False otherwise
     """
-    return
+    x= 1<=(1000-a)<=900
+    return x
+x=main(15)
+print(x)
