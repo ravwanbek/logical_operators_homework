@@ -8,4 +8,11 @@ def main(a,b,c):
     Returns:
         True if b is between a and c, False otherwise
     """
-    return
+
+
+
+    x=a<b<c
+    return x
+
+x=main(5,8,10)
+print(x)
