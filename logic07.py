@@ -7,4 +7,7 @@ def main(a,b):
     Returns:
         True if at least one  of the numbers 'a' and 'b' is negative, False otherwise
     """
-    return
+    x=a<0 or b<0 
+    return x
+x=main(-2,10)
+print(x)
